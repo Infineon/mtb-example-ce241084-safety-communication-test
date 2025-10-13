@@ -101,7 +101,7 @@ int main(void)
 
     /* Initialize the device and board peripherals */
     init_cycfg_all();
-
+    
     Cy_SysLib_Delay(CONFIG_ALL_DELAY);
 
     /* Enable global interrupts */
@@ -157,7 +157,7 @@ int main(void)
                 /* No respond timeout error */
                 if (count > 0u)
                 {
-                    DEBUG_PutString("\r\nCommunication Protocol test: error \r\n");
+                    printf("\r\nCommunication Protocol test: error \r\n");
 
                     /* For demo purposes in case of error detection
                     * message is printed to UART Debug and code execution

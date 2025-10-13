@@ -274,7 +274,8 @@ Document title: *CE241084* - *Class-B Safety Test: Communication protocol*
 
 Version | Description of change 
 ------- | --------------------- 
-1.0.0   | New code example  
+1.0.0   | New code example 
+1.0.1   | Fix Regression failure 
 
 <br>
 
